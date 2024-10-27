@@ -1,0 +1,102 @@
+/* Estilos personalizados */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Animación de texto */
+h1, h2 {
+    animation: fadeInDown 2s ease;
+}
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Logo en el Navbar */
+.navbar-brand img {
+    width: 50px;
+    height: auto;
+    margin-right: 8px;
+}
+
+/* Ajustes de secciones */
+section {
+    padding: 4rem 1rem;
+    text-align: justify; /* Justificar texto en todas las secciones */
+}
+
+/* Tamaños de fuentes */
+h1 {
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+/* Responsivo para tablet */
+@media (max-width: 768px) {
+    header {
+        padding: 3rem 1rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.8rem;
+    }
+
+    .navbar-brand img {
+        width: 40px;
+        height: auto;
+    }
+
+    section {
+        padding: 3rem 1rem;
+    }
+}
+
+/* Responsivo para móvil */
+@media (max-width: 576px) {
+    header {
+        padding: 2rem 1rem;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    .navbar-brand img {
+        width: 35px;
+        height: auto;
+    }
+
+    section {
+        padding: 2rem 1rem;
+    }
+
+    .navbar-nav .nav-link {
+        font-size: 0.9rem;
+    }
+
+    /* Ajustar el tamaño del botón de envío en la sección de sugerencias */
+    #suggestions button {
+        font-size: 0.9rem;
+        padding: 0.5rem 1rem;
+    }
+}

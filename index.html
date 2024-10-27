@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banco de Sangre</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <!-- Vincular Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Vincular Estilos Personalizados -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar de Bootstrap -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="logoo.png" alt="Logo Banco de Sangre" width="50" height="50" class="d-inline-block align-text-top me-2">
+                Banco de Sangre
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">Acerca de</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#vision">Visión</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#values">Valores</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#suggestions">Sugerencias</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Banner Principal -->
+    <header class="text-center p-5 bg-danger text-white" id="home">
+        <h1>Bienvenido al Banco de Sangre</h1>
+        <p>Tu sangre, tu esperanza</p>
+    </header>
+
+    <!-- Sección Acerca de Nosotros -->
+    <section id="about" class="p-5 bg-light text-center">
+        <div class="container">
+            <h2 class="text-danger">Misión</h2>
+            <p style="text-align: justify;">
+                <strong>MISIÓN:</strong> Garantizar el abastecimiento y el buen uso de la sangre, así como distribuirla de manera segura y oportuna para aquellos que la necesitan. Nos esforzamos por hacer que la sangre esté disponible cuando y donde más se necesita, promoviendo la equidad en el acceso a la salud y fomentando una cultura de empatía y acción social.
+            </p>
+        </div>
+    </section>
+
+    <!-- Sección Visión -->
+    <section id="vision" class="p-5 text-center">
+        <div class="container">
+            <h2 class="text-danger">Visión</h2>
+            <p style="text-align: justify;">
+                <strong>VISIÓN:</strong> Queremos ser un establecimiento de excelencia, referente a nivel nacional, líderes en calidad y comprometidos con la educación de la comunidad. Trabajaremos constantemente para incentivar la cultura de donación voluntaria. Nos esforzamos en crear un impacto positivo en el sistema de salud al aumentar el número de donantes regulares y contribuir al bienestar general de la comunidad.
+            </p>
+            <p style="text-align: justify;">
+                Imaginamos un mundo donde cada persona pueda recibir el tratamiento que necesita gracias a una cadena solidaria y altruista de donantes. En los próximos años, queremos expandir nuestras capacidades tecnológicas, mejorar los tiempos de respuesta en situaciones de emergencia y establecer redes colaborativas con otros bancos de sangre en la región para garantizar una disponibilidad inmediata y segura de recursos.
+            </p>
+        </div>
+    </section>
+
+    <!-- Sección Valores -->
+    <section id="values" class="p-5 bg-light text-center">
+        <div class="container">
+            <h2 class="text-danger">Nuestros Valores</h2>
+            <p style="text-align: justify;">
+                Nuestros valores fundamentales guían cada acción y decisión dentro del Banco de Sangre. Son la base de nuestro compromiso con la comunidad y la misión de salvar vidas. Estos valores incluyen:
+            </p>
+            <ul style="text-align: left;">
+                <li><strong>Confiabilidad:</strong> Nos comprometemos a proporcionar un servicio seguro y de alta calidad, asegurándonos de que cada donación se maneje con el mayor cuidado y profesionalismo.</li>
+                <li><strong>Organización:</strong> Priorizamos la eficiencia y coordinación en cada una de nuestras operaciones para maximizar la efectividad en la entrega de sangre.</li>
+                <li><strong>Respeto:</strong> Valoramos y respetamos las opiniones y necesidades de cada individuo que interactúa con nosotros, ya sea donante o receptor.</li>
+                <li><strong>Trato Humanitario:</strong> Ofrecemos un trato digno y cordial a todas las personas que se acercan a nuestro servicio, promoviendo un ambiente de comprensión y respeto.</li>
+                <li><strong>Ética:</strong> Actuamos con integridad, respetando los más altos estándares de ética en el manejo de información y recursos.</li>
+                <li><strong>Compromiso:</strong> Estamos comprometidos con la mejora continua y la excelencia en cada aspecto de nuestro servicio.</li>
+                <li><strong>Solidaridad:</strong> Fomentamos una comunidad de apoyo, donde la solidaridad y el altruismo son pilares de nuestro trabajo.</li>
+            </ul>
+            <p style="text-align: justify;">
+                A través de estos valores, buscamos construir un entorno confiable y respetuoso que inspire a más personas a sumarse a la causa, contribuyendo activamente a salvar vidas y fortalecer la salud de nuestra comunidad.
+            </p>
+        </div>
+    </section>
+
+    <!-- Sección Sugerencias -->
+    <section id="suggestions" class="p-5 text-center bg-light">
+        <div class="container">
+            <h2 class="text-danger">Sugerencias</h2>
+            <p>¿Tienes alguna idea para mejorar nuestros servicios? ¡Déjanos tu sugerencia!</p>
+            <!-- Formulario de Sugerencias -->
+            <form>
+                <div class="mb-3">
+                    <label for="name" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="name" placeholder="Tu nombre" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Correo Electrónico</label>
+                    <input type="email" class="form-control" id="email" placeholder="Tu correo electrónico" required>
+                </div>
+                <div class="mb-3">
+                    <label for="suggestion" class="form-label">Sugerencia</label>
+                    <textarea class="form-control" id="suggestion" rows="4" placeholder="Escribe aquí tu sugerencia" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-danger">Enviar Sugerencia</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="p-3 bg-danger text-white text-center">
+        <p>&copy; 2024 Banco de Sangre. CBTis No. 65 "Josefa Ortíz de Domínguez"</p>
+    </footer>
+
+    <!-- Vincular Bootstrap JS y Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+    <!-- Vincular JS Personalizado -->
+    <script src="script.js"></script>
+</body>
+</html>
