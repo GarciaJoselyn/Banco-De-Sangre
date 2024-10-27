@@ -21,7 +21,7 @@ h1, h2 {
 
 /* Logo en el Navbar */
 .navbar-brand img {
-    width: 1000px;
+    width: 500px;
     height: auto;
     margin-right: 8px;
 }
